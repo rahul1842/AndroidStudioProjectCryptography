@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:ignore="ExtraText">
+
+    <!-- Title for Rail Fence Cipher -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rail Fence Cipher"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <!-- Message Input Field -->
+    <EditText
+        android:id="@+id/railMessageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:inputType="textMultiLine"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/railKeyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rail Fence Key (Number)"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:minHeight="48dp" />
+
+    <!-- Encrypt Message Button -->
+    <Button
+        android:id="@+id/encryptRailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encrypt Message"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:importantForAccessibility="yes"
+        android:minHeight="48dp" />
+
+    <!-- Encrypted Text Output -->
+    <TextView
+        android:id="@+id/encryptedRailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:importantForAccessibility="yes" />
+
+</LinearLayout>

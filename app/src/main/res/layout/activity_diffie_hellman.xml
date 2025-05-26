@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <!-- Prime P Field -->
+    <EditText
+        android:id="@+id/pField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_p"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Generator G Field -->
+    <EditText
+        android:id="@+id/gField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_g"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Private A Field -->
+    <EditText
+        android:id="@+id/privateA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_privateA"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Private B Field -->
+    <EditText
+        android:id="@+id/privateB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_privateB"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/calculate_button"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Result View -->
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_view"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

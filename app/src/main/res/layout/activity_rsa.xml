@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Prime P Input Field -->
+    <EditText
+        android:id="@+id/pField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_primeP"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Prime Q Input Field -->
+    <EditText
+        android:id="@+id/qField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_primeQ"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Generate Keys Button -->
+    <Button
+        android:id="@+id/generateKeysButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_keys_button"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Encryption Key Display -->
+    <TextView
+        android:id="@+id/encryptionKeyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/encryption_key"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Decryption Key Display -->
+    <TextView
+        android:id="@+id/decryptionKeyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/decryption_key"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:importantForAccessibility="yes" />
+</LinearLayout>

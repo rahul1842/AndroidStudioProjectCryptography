@@ -1,0 +1,44 @@
+<resources>
+    <!-- General Text -->
+    <string name="app_name">NMIT Secure SMS</string>
+
+    <!-- Rail Fence Activity -->
+    <string name="hint_rail_fence_key">Enter Rail Fence Key</string>
+    <string name="rail_fence_button">Encrypt using Rail Fence</string>
+
+    <!-- Diffie-Hellman Activity -->
+    <string name="hint_p">Enter Prime P</string>
+    <string name="hint_g">Enter Generator G</string>
+    <string name="hint_privateA">Enter Private Key A</string>
+    <string name="hint_privateB">Enter Private Key B</string>
+    <string name="diffie_hellman_button">Calculate Diffie-Hellman Key</string>
+
+    <!-- RSA Activity -->
+
+    <string name="hint_primeP">Enter Prime P</string>
+    <string name="hint_primeQ">Enter Prime Q</string>
+    <string name="generate_keys_button">Generate RSA Keys</string>
+    <string name="encryption_key">Encryption Key: </string>
+    <string name="decryption_key">Decryption Key: </string>
+
+    <!-- Buttons and actions -->
+    <string name="calculate_button">Calculate</string>
+    <string name="back_button">Back</string>
+    <string name="exit_button">Exit</string>
+
+    <!-- Accessibility Descriptions -->
+    <string name="calculate_button_description">Button to calculate the encryption keys</string>
+    <string name="back_button_description">Back button to return to previous page</string>
+    <string name="exit_button_description">Exit button to close the application</string>
+
+    <!-- Result View -->
+    <string name="result_view">Result will be shown here</string>
+
+    <!-- Error messages -->
+    <string name="error_enter_valid_key">Please enter a valid key</string>
+    <string name="error_enter_valid_numbers">Please enter valid numbers</string>
+
+    <!-- Miscellaneous -->
+    <string name="hint_input_text">Enter the text to encrypt/decrypt</string>
+    <string name="hint_key_input">Enter the key</string>
+</resources>
